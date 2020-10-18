@@ -4,15 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
-  <title>Inclusivote</title>
+  <title>Inclusivote - Every. Vote. Counts.</title>
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,100;1,300;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-xl navbar-dark fixed-top navbar-black">
-    <a class="navbar-brand mb-0 h1" href="#">
-      <img class="nav-logo" src="img/inclusivote.svg" alt="Inclusivote">
+  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-customn">
+    <a class="navbar-brand mb-0 h1" href="/">
+      <img class="nav-logo" src="img/inclusivote_light.png" alt="Inclusivote">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -20,13 +20,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link left" href="#">About</a>
+          <a class="nav-link left" href="/mission.html">Misson</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link left" href="#">Message from the CEO</a>
+          <a class="nav-link left" href="/fight_voter_supression.html">Fight Voter supression 2020</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link left" href="#">Fight voter supression 2020</a>
+          <a class="nav-link left" href="/voter_supression_types.html">Voter Supression Types</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link left" href="/voting_rights_act.html">Voting rights act</a>
         </li>
       </ul>
     </div>
@@ -84,66 +87,91 @@
       </a>
     </div>
   </div>
-  <div class="img-voter-supression">
-    <div class="container">
-      <div class="section">
-        <div class="row">
-          <div class="col-lg-7 col-md-9 col-sm-12 background-screen">
-            <div class="section-question">
-              <p class="section-question-title">
-                What is Voter Suppression?
-              </p>
-              <p class="section-question-answer">
-                According to Wikipedia, Voter suppression in the United States concerns allegations about various efforts, legal and illegal, used to prevent eligible voters from exercising their right to vote.
-              </p>
-            </div>
-            <div class="section-question">
-              <p class="section-question-title">
-                Who does it affect?
-              </p>
-              <p class="section-question-answer">
-                People of color, women, students, disabled, and low-income voters to name a few.
-              </p>
-            </div>
-            <div style="position: relative; display: inline;">
-              <a class="learn-more" href="">Learn More</a>
-            </div>
+
+  <div class="container-fluid">
+    <div class="section">
+      <div class="row">
+        <div class="col-xl-6 col-lg-7 col-md-12 col-sm-12 col-xs-12 offset-xl-1 padding-vertical">
+          <div class="section-question">
+            <p class="section-question-title">
+              What is Voter Suppression?
+            </p>
+            <p class="left-border-text">
+              According to Wikipedia, Voter suppression in the United States concerns allegations about various efforts, legal and illegal, used to prevent eligible voters from exercising their right to vote.
+            </p>
           </div>
+          <div class="section-question">
+            <p class="section-question-title">
+              Who does it affect?
+            </p>
+            <p class="left-border-text">
+              People of color, women, students, disabled, and low-income voters to name a few.
+            </p>
+          </div>
+          <div class="learn-more-wrapper">
+            <a class="learn-more" href="">Learn More</a>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-5 col-md-12 col-sm-12 col-xs-12 img-voter-suppression padding-vertical">
+          <img src="/img/voter-supression.svg" alt="">
         </div>
       </div>
     </div>
   </div>
+
   <div class="section">
     <div class="container-fluid">
-      <p class="states-header">States with high voter supression</p>
-      <div class="states-underline">
-        <span>States with high voter supression</span>
+      <p class="section-header">The Electoral Integrity Project 2018, Harvard University</p>
+      <div class="section-underline">
+        <span>---------------</span>
       </div>
-      <div class="container states-container">
-        <div class="row">
-          <div class="col col-sm-6 col-md-6 col-lg-3 state-block">
-            <img class="state-image" src="img/wisconsin.svg">
-            <p class="state-name">Wisconsin</p>
-          </div>
-          <div class="col col-sm-6 col-md-6 col-lg-3 state-block">
-            <img class="state-image" src="img/georgia.svg">
-            <p class="state-name">Georgia</p>
-          </div>
-          <div class="col col-sm-6 col-md-6 col-lg-3 state-block">
-            <img class="state-image" src="img/pennsylvania.svg">
-            <p class="state-name">Pennsylvania</p>
-          </div>
-          <div class="col col-sm-6 col-md-6 col-lg-3 state-block">
-            <img class="state-image" src="img/florida.svg">
-            <p class="state-name">Florida</p>
-          </div>
-        </div>
+      <div class="container section-container">
+        <p class="section-description">An assessment of the performance of all 50 states + DC in the 2018 U.S. midterm elections, compared with the 2016 contest by the <a href="https://www.electoralintegrityproject.com">Electoral Integrity Project</a>.</p>
+        <img class="section-hero-img" src="/img/electoral-college-harvard@2x.png" alt="">
+        <p class="section-hero-img-details">The map shows the mean for each state in the Perceptions of Electoral Integrity Index, with imputed values, and the scale ranging from 0-100. Source: The Electoral Integrity Project PEI-US 2018 <a href="https://www.electoralintegrityproject.com">www.electoralintegrityproject.com</a></p>
       </div>
-      <p class="state-learn-more">Click on the map to learn more about voter suppression and voting information</p>
     </div>
   </div>
+
+  <div class="section">
+    <div class="container-fluid">
+      <p class="section-header">Fight Voter Suppression 2020</p>
+      <div class="section-underline">
+        <span>---------------</span>
+      </div>
+      <div class="container section-container">
+        <a href="https://www.electoralintegrityproject.com">
+          <img class="section-hero-img fight-voter-suppression-img" src="/img/fight_voter_supression@2x.png" alt="">
+          <p class="section-hero-img-details">Learn More</p>
+        </a>
+      </div>
+    </div>
+  </div>
+
   <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
   <script src="node_modules/popper.js/dist/popper.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
+<footer>
+  <div class="section">
+    <div class="container section-container social-container">
+      <div class="absolutely-center">
+        <a href=""><img class="social-img" src="/img/awesome-twitter@2x.png" alt="Twitter"></a>
+        <a href=""><img class="social-img" src="/img/awesome-instagram@2x.png" alt="Instagram"></a>
+        <a href=""><img class="social-img" src="/img/simple-gmail@2x.png" alt="Gmail"></a>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6">
+          <span class="float-left">inclusivote</span>
+        </div>
+        
+        <div class="col-6">
+          <span class="float-right">inclusivote_logo</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
 </html>
