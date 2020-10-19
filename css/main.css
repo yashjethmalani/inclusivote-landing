@@ -16,6 +16,15 @@ a:hover {
   color:black
 }
 
+.centered-list {
+  display: table;
+  margin: 0 auto;
+}
+
+.centered-list > li {
+  text-align: left;
+}
+
 .padding-vertical {
   padding-top: 3em;
   padding-bottom: 3em;
@@ -171,7 +180,7 @@ a.left:focus:before {
 
 a.learn-more {
   color:black;
-  font-style: italic;
+  /* font-style: italic; */
   font-size: 1.5em;
   text-decoration: none;
 }
