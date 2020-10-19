@@ -9,7 +9,7 @@ body {
 }
 
 a {
-  color:black
+  color:gray;
 }
 
 a:hover {
@@ -115,23 +115,24 @@ a.left:focus:before {
 }
 
 .slide-stat {
-  font-size: 6.25em;
+  font-size: 6em;
   color: red;
   text-align: left;
   font-weight: bold;
 }
 
 .slide-line {
-  font-size: 3em;
+  font-size: 2.5em;
   text-align: left;
-  color: #707070;
+  color: black;
   margin-top: -0.6em;
 }
 
 .slide-subline {
-  font-size: 1.25em;
+  font-size: 1em;
   text-align: left;
   /* color: white; */
+  color: gray;
   font-style: italic;
 }
 
@@ -156,10 +157,10 @@ a.left:focus:before {
 .left-border-text {
   margin-top: 1.5em;
   font-size: 1.5em;
-  font-style: italic;
+  /*font-style: italic;*/
   font-weight: 300;
   padding-left: 36px;
-  border-left: 4px solid black;
+  border-left: 3px solid #bbbbbb;
 }
 
 .learn-more-wrapper {
@@ -282,9 +283,6 @@ a.learn-more:focus:before {
 
 .gerrymandering-img {
   max-height: 400px;
-  /* max-width: 330px;
-  width: auto;
-  height: auto; */
 }
 
 .voting-rights-img {
@@ -385,6 +383,22 @@ a.learn-more:focus:before {
   height: 75px;
 }
 
+.footer-section {
+  padding: 2em 1em 2em 1em
+}
+
+.footer-section > container-fluid {
+  background: white;
+}
+
+
+.footer-logo-wrapper {
+  align-self: flex-end;
+}
+
+.footer-logo-wrapper > img {
+  width: 200px;
+}
 
 @media only screen and (min-width: 320px) and (max-width: 479px){
   .nav-logo {
@@ -477,8 +491,8 @@ a.learn-more:focus:before {
   }
 
   .gerrymandering-img {
-    width: 100%;
-    height:100%
+    /* width: 100%; */
+    height:100%;
   }
 
   .get-out-to-vote-wrapper {
@@ -587,12 +601,12 @@ a.learn-more:focus:before {
   }
 
   .gerrymandering-img {
-    width: 100%;
-    height:100%
+    /* width: 100%; */
+    height:100%;
   }
 
   .get-out-to-vote-wrapper {
-    width: 500px;
+    width: 444px;
     height: 680px;
   }
 
