@@ -156,7 +156,7 @@ a.left:focus:before {
   /*font-style: italic;*/
   font-weight: 300;
   padding-left: 36px;
-  border-left: 4px solid black;
+  border-left: 3px solid #bbbbbb;
 }
 
 .learn-more-wrapper {
