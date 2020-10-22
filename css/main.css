@@ -20,6 +20,9 @@ font-family: 'Lato', sans-serif;
   margin: auto !important;
 }
 
+.signature {
+  font-family: 'Great Vibes', cursive;
+}
 .paper-bg {
   background-image: url('/img/paper-texture.jpg');
   background-repeat: repeat;
