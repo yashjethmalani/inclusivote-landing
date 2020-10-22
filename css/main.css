@@ -435,8 +435,9 @@ a.learn-more:focus:before {
   padding: 2em 1em 2em 1em
 }
 
-.footer-section > container-fluid {
+.footer-section > .container-fluid {
   background: white;
+  margin-top: -30px;
 }
 
 
@@ -560,6 +561,11 @@ a.learn-more:focus:before {
   .footer-logo-wrapper>img {
     width: 120px !important;
   }
+
+  .footer-section > .container-fluid {
+    background: white;
+    margin-top: -20px;
+  }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px){ 
@@ -670,41 +676,20 @@ a.learn-more:focus:before {
   .footer-logo-wrapper>img {
     width: 130px;
   }
+
+  .footer-section > .container-fluid {
+    background: white;
+    margin-top: -20px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px){
   .footer-logo-wrapper>img {
     width: 160px;
   }
+
+  .footer-section > .container-fluid {
+    background: white;
+    margin-top: -25px;
+  }
 }
-
-/* @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .slide-stat {
-    font-size: 5em;
-  }
-  
-  .slide-line {
-    font-size: 2em;
-  }
-
-  .slide-subline {
-    font-size: 1em;
-  }
-
-  .section-header, .section-underline {
-    font-size: 2.5em;
-  }
-
-  .section-description {
-    font-size: 1.25em;
-  }
-
-  .section-hero-img-details {
-    font-size: 1em;
-  }
-
-  .nav-item {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-} */
