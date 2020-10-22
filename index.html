@@ -5,13 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="icon" href="img/inclusivote-favicon.png" type="image/x-icon"/>
   <title>Inclusivote - Every. Vote. Counts.</title>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    
+    ga('create', 'UA-180993912-1', 'auto');
+    ga('send', 'pageview');
+  </script>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,100;1,300;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
   <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-customn">
-    <a class="navbar-brand mb-0 h1" href="/inclusivote-landing/">
+    <a class="navbar-brand mb-0 h1" href="/">
       <img class="nav-logo" src="img/inclusivote_light.png" alt="Inclusivote">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,17 +28,17 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link left" href="/inclusivote-landing/mission.html">Mission</a>
+        <li class="nav-item">
+          <a class="nav-link left" href="/mission.html">Mission</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link left" href="/inclusivote-landing/fight_voter_supression.html">Fight Voter Suppression 2020</a>
+          <a class="nav-link left" href="/fight_voter_suppression.html">Fight Voter Suppression 2020</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link left" href="/inclusivote-landing/voter_supression_types.html">Voter Suppression Types</a>
+          <a class="nav-link left" href="/voter_suppression_types.html">Voter Suppression Types</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link left" href="/inclusivote-landing/voting_rights_act.html">Voting Rights Act</a>
+          <a class="nav-link left" href="/voting_rights_act.html">Voting Rights Act</a>
         </li>
       </ul>
     </div>
@@ -111,11 +120,12 @@
             </p>
           </div>
           <div class="learn-more-wrapper">
-            <a class="learn-more" href="">LEARN MORE</a>
+            <a class="learn-more-link" target="_blank" href="/voter_suppression_types.html"><button type="button" class="btn btn-dark">Learn more</button>
+            </a>
           </div>
         </div>
         <div class="col-xl-4 col-lg-5 col-md-12 col-sm-12 col-xs-12 img-voter-suppression padding-vertical">
-          <img src="/inclusivote-landing/img/voter-supression.svg" alt="">
+          <img src="/img/voter-suppression.svg" alt="">
         </div>
       </div>
     </div>
@@ -128,18 +138,26 @@
         <span>---------------</span>
       </div>
       <div class="container section-container">
-        <p class="section-description">
-          <br> <sup>1</sup>The Electoral Integrity Project addresses three questions:<br><br>
-          
-          1. When do elections meet international standards of electoral integrity?<br>
-          2. What happens when elections fail to do so?<br>
-          3. And what can be done to mitigate these problems?<br><br>
-   
-          <sup>2</sup>Here's an assessment of the performance of all 50 states + DC in the 2018 U.S. midterm elections, compared with the 2016 contest by the <a target="_blank" href="https://www.electoralintegrityproject.com"><u>Electoral Integrity Project</u></a>. <br><br></p>
-        <img class="section-hero-img" src="/inclusivote-landing/img/electoral-college-harvard@2x.png" alt="">
-        <p class="section-hero-img-details"><sup>1</sup>Source: The Electoral Integrity Project<a target="_blank" href="https://www.electoralintegrityproject.com/">https://www.electoralintegrityproject.com/</a>
+        <p class="section-description"><br> The Electoral Integrity Project<sup>1</sup> addresses three questions:<br></p>
+
+        <ol class="centered-list">
+          <li class="section-description">When do elections meet international standards of electoral integrity?</li>
+          <li class="section-description">What happens when elections fail to do so?</li>
+          <li class="section-description">And what can be done to mitigate these problems?</li>
+        </ol>
         
-        <br><br>The map shows the mean for each state in the Perceptions of Electoral Integrity Index, with imputed values, and the scale ranging from 0-100. <sup>2</sup>Source: The Electoral Integrity Project PEI-US 2018 <a target="_blank" href="https://www.electoralintegrityproject.com/peius2018">https://www.electoralintegrityproject.com/peius2018</a></p>
+        <br>
+
+        <p class="section-description">Here's an assessment of the performance of all 50 states + DC in the 2018 U.S. midterm elections, compared with the 2016 contest by the <a target="_blank" href="https://www.electoralintegrityproject.com"><u>Electoral Integrity Project</u></a> <sup>2</sup>. <br><br></p>
+        <img class="section-hero-img" src="/img/electoral-college-harvard@2x.png" alt="">
+        <p class="section-hero-img-details">
+          The map shows the mean for each state in the Perceptions of Electoral Integrity Index, with imputed values, and the scale ranging from 0-100. 
+        </p>
+        <br>
+        <p class="slide-subline">
+          <a target="_blank" href="https://www.electoralintegrityproject.com/"><sup>1</sup>Source: The Electoral Integrity Project</a> <br>
+         <a target="_blank" href="https://www.electoralintegrityproject.com/peius2018"><sup>2</sup>Source: The Electoral Integrity Project PEI-US 2018</a>
+        </p>
       </div>
     </div>
   </div>
@@ -151,9 +169,11 @@
         <span>---------------</span>
       </div>
       <div class="container section-container">
-        <a target="_blank" href="https://www.electoralintegrityproject.com">
-          <img class="section-hero-img fight-voter-suppression-img" src="/inclusivote-landing/img/fight_voter_supression@2x.png" alt="">
-          <p class="section-hero-img-details">LEARN MORE</p>
+        <a target="_blank" href="/fight_voter_suppression.html">
+          <img class="section-hero-img fight-voter-suppression-img" src="/img/fight_voter_suppression@2x.png" alt="">
+          
+          <p class="learn-more-link"><br><button type="button" class="btn btn-dark">Learn more</button>
+          </p>
         </a>
       </div>
     </div>
@@ -164,29 +184,23 @@
   <script src="js/bootstrap.min.js"></script>
 </body>
 <footer>
-  <div class="section">
+  <div class="footer-section">
     <div class="container section-container social-container">
       <div class="absolutely-center">
-        <a target="_blank" href="https://twitter.com/inclusivote"><img class="social-img" src="/inclusivote-landing/img/awesome-twitter@2x.png" alt="Twitter"></a>
-        <a target="_blank"href="https://www.instagram.com/inclusivote/"><img class="social-img" src="/inclusivote-landing/img/awesome-instagram@2x.png" alt="Instagram"></a>
-        <a target="_blank" href="inclusivote@gmail.com"><img class="social-img" src="/inclusivote-landing/img/simple-gmail@2x.png" alt="Gmail"></a>
-        <a target="_blank" href="https://www.linkedin.com/company/inclusivote/"><img class="social-img" src="/inclusivote-landing/img/simple-linkedin.png" alt="LinkedIn"></a>
-      
+        <a target="_blank" href="https://twitter.com/inclusivote"><img class="social-img" src="/img/awesome-twitter@2x.png" alt="Twitter"></a>
+        <a target="_blank" href="https://www.instagram.com/inclusivote/"><img class="social-img" src="/img/awesome-instagram@2x.png" alt="Instagram"></a>
+        <a target="_blank" href="mailto:inclusivote@gmail.com"><img class="social-img" src="/img/simple-gmail@2x.png" alt="Gmail"></a>
+        <a target="_blank" href="https://www.linkedin.com/company/inclusivote/"><img class="social-img" src="/img/simple-linkedin.png" alt="LinkedIn"></a>
       </div>
     </div>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-6">
-         <!-- <span class="float-left">inclusivote</span>-->
-          <img src="img/copyright_inclusivote.PNG" alt="">
-        
-        </div>
-        
-        <div class="col-6">
-         <!-- <span class="float-right">inclusivote_logo</span>-->
-          <img src="img/inclusivote_light.png" alt="">
-        
-        </div>
+        <div class="col-6 footer-logo-wrapper">
+           <img class="float-left" src="img/copyright_inclusivote.PNG" alt="">
+         </div>
+         <div class="col-6 footer-logo-wrapper">
+           <img class="float-right" src="img/inclusivote_light.png" alt="">
+         </div>
       </div>
     </div>
   </div>
