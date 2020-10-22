@@ -15,8 +15,9 @@ body {
 
 .letter-script {
   font-family: 'Lato', sans-serif;
-  color: #4a4a4a;
+  color:black;
   margin: auto !important;
+  font-weight: 400;
 }
 
 .signature {
